@@ -7,7 +7,7 @@ import {
 	POKEMON_LOADING,
 } from './PokemonActionTypes';
 
-const getPokemon =
+export const getPokemon =
 	(pokemon: string) => async (dispatch: Dispatch<PokemonDispatchTypes>) => {
 		try {
 			dispatch({ type: POKEMON_LOADING });

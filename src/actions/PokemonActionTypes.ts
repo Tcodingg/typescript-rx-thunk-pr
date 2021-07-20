@@ -4,7 +4,7 @@ export const POKEMON_FAIL = 'POKEMON_FAIL';
 export const POKEMON_SUCCESS = 'POKEMON_SUCCESS';
 
 export type PokemonType = {
-	Abilities: PokemonSprites[];
+	abilities: PokemonAbility[];
 	sprites: PokemonSprites;
 	stats: PokeymonState[];
 };
